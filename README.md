@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# ECHO — Digital Memory Library
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ECHO is a voice-first storytelling app that allows people to privately record, organize, and preserve their personal history — through voice, video, or text — for future generations.
 
-## Get started
+Whether it's a story from WWII, a memory of survival, or a message for the future, **ECHO** ensures that every voice is heard and remembered.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🌟 Core Features (MVP)
 
-2. Start the app
+- 🎙️ **Voice & video journaling**
+- 🧾 **Text-based entries**
+- 📡 **Firebase integration** for storage & retrieval
+- 🔍 **Searchable, categorized story library**
+- 📱 **QR code scanning** to play back memories instantly
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📦 Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native (Expo)**
+- **Firebase** (Firestore, Storage, Auth)
+- **React Navigation / Expo Router**
+- **TypeScript** *(optional, based on branch)*
+- **QR Code Tools** (camera + playback link)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Getting Started
 
-When you're ready, run:
+### Prerequisites
+
+- Node.js (use `nvm`)
+- Expo CLI (`npm install -g expo-cli`)
+- Firebase project & config file
+
+### Clone the Repo
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone git@github.com:shadowBannedshorty/echo-app.git
+cd echo-app
+npm install
